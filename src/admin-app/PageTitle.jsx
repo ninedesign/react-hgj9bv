@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function PageTitle({ title, ...others }) {
     return (
-        <h4 className="text-center" {...others}>
+        <h4 className="page-title text-center" {...others}>
             {title}
         </h4>
     );
