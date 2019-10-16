@@ -1,0 +1,24 @@
+.bg-odot {
+  background-color:#12885D !important;
+  }
+.navbar-nav>li>a {
+  text-transform:uppercase;
+  font-weight:600;
+  font-size:0.85rem;
+}
+@media (min-width: 576px) {
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom:0.1rem !important;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  border-bottom:2px solid transparent;
+}
+.navbar-expand-sm .navbar-nav a.nav-link:hover {
+  border-color:#fff;
+}
+.navbar-expand-sm .navbar-nav .nav-item.active a.nav-link {
+  border-color:#fff;
+}
+}
