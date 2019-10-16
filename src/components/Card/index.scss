@@ -1,0 +1,28 @@
+.card {
+  margin-bottom:2rem;
+}
+.card-body {
+  padding:0 !important;
+}
+.card-title {
+  margin-bottom: 0;
+  padding: 1rem;
+  background-color:#12885D;
+  color: #f0f0f0;
+  font-size:1rem;
+}
+.card-title span {
+  padding: 1.25rem;
+  margin-right: 1rem;
+  background: #333;
+  color: #f0f0f0;
+}
+.card-text {
+  padding:1rem;
+}
+.card-text a, 
+.card-text a:visited,
+.card-text a:hover {
+  color:#333;
+  text-decoration:none;
+}
