@@ -1,0 +1,300 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qr0e86');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qr0e86#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?qr0e86') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?qr0e86') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?qr0e86##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="tamdst-"], [class*=" tamdst-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tamdst-search-zoom {
+  &:before {
+    content: $tamdst-search-zoom; 
+  }
+}
+.tamdst-stack {
+  &:before {
+    content: $tamdst-stack; 
+  }
+}
+.tamdst-plus {
+  &:before {
+    content: $tamdst-plus; 
+  }
+}
+.tamdst-minus {
+  &:before {
+    content: $tamdst-minus; 
+  }
+}
+.tamdst-home {
+  &:before {
+    content: $tamdst-home; 
+  }
+}
+.tamdst-end-log {
+  &:before {
+    content: $tamdst-end-log; 
+  }
+}
+.tamdst-begin-log {
+  &:before {
+    content: $tamdst-begin-log; 
+  }
+}
+.tamdst-map-pin {
+  &:before {
+    content: $tamdst-map-pin; 
+  }
+}
+.tamdst-street-view {
+  &:before {
+    content: $tamdst-street-view; 
+  }
+}
+.tamdst-mouse-pointer {
+  &:before {
+    content: $tamdst-mouse-pointer; 
+  }
+}
+.tamdst-draw-polygon {
+  &:before {
+    content: $tamdst-draw-polygon; 
+  }
+}
+.tamdst-select-route {
+  &:before {
+    content: $tamdst-select-route; 
+  }
+}
+.tamdst-share-square-o {
+  &:before {
+    content: $tamdst-share-square-o; 
+  }
+}
+.tamdst-external-link {
+  &:before {
+    content: $tamdst-external-link; 
+  }
+}
+.tamdst-thin-close {
+  &:before {
+    content: $tamdst-thin-close; 
+  }
+}
+.tamdst-close {
+  &:before {
+    content: $tamdst-close; 
+  }
+}
+.tamdst-remove {
+  &:before {
+    content: $tamdst-remove; 
+  }
+}
+.tamdst-times {
+  &:before {
+    content: $tamdst-times; 
+  }
+}
+.tamdst-trash-o {
+  &:before {
+    content: $tamdst-trash-o; 
+  }
+}
+.tamdst-copy {
+  &:before {
+    content: $tamdst-copy; 
+  }
+}
+.tamdst-files-o {
+  &:before {
+    content: $tamdst-files-o; 
+  }
+}
+.tamdst-print {
+  &:before {
+    content: $tamdst-print; 
+  }
+}
+.tamdst-chevron-left {
+  &:before {
+    content: $tamdst-chevron-left; 
+  }
+}
+.tamdst-chevron-right {
+  &:before {
+    content: $tamdst-chevron-right; 
+  }
+}
+.tamdst-chevron-down {
+  &:before {
+    content: $tamdst-chevron-down; 
+  }
+}
+.tamdst-chevron-up {
+  &:before {
+    content: $tamdst-chevron-up; 
+  }
+}
+.tamdst-info-circle {
+  &:before {
+    content: $tamdst-info-circle; 
+  }
+}
+.tamdst-exclamation-triangle {
+  &:before {
+    content: $tamdst-exclamation-triangle; 
+  }
+}
+.tamdst-warning {
+  &:before {
+    content: $tamdst-warning; 
+  }
+}
+.tamdst-question-circle-o {
+  &:before {
+    content: $tamdst-question-circle-o; 
+  }
+}
+.tamdst-ellipsis-h {
+  &:before {
+    content: $tamdst-ellipsis-h; 
+  }
+}
+.tamdst-ellipsis-v {
+  &:before {
+    content: $tamdst-ellipsis-v; 
+  }
+}
+.tamdst-square-o {
+  &:before {
+    content: $tamdst-square-o; 
+  }
+}
+.tamdst-check-square {
+  &:before {
+    content: $tamdst-check-square; 
+  }
+}
+.tamdst-circle-o {
+  &:before {
+    content: $tamdst-circle-o; 
+  }
+}
+.tamdst-dot-circle-o {
+  &:before {
+    content: $tamdst-dot-circle-o; 
+  }
+}
+.tamdst-bridge {
+  &:before {
+    content: $tamdst-bridge; 
+  }
+}
+.tamdst-culvert {
+  &:before {
+    content: $tamdst-culvert; 
+  }
+}
+.tamdst-road {
+  &:before {
+    content: $tamdst-road; 
+  }
+}
+.tamdst-barrier {
+  &:before {
+    content: $tamdst-barrier; 
+  }
+}
+.tamdst-overhead-sign {
+  &:before {
+    content: $tamdst-overhead-sign; 
+  }
+}
+.tamdst-bmp {
+  &:before {
+    content: $tamdst-bmp; 
+  }
+}
+.tamdst-spinner {
+  &:before {
+    content: $tamdst-spinner; 
+  }
+}
+.tamdst-exclamation-circle {
+  &:before {
+    content: $tamdst-exclamation-circle; 
+  }
+}
+.tamdst-graduation-cap {
+  &:before {
+    content: $tamdst-graduation-cap; 
+  }
+}
+.tamdst-book {
+  &:before {
+    content: $tamdst-book; 
+  }
+}
+.tamdst-phone-square {
+  &:before {
+    content: $tamdst-phone-square; 
+  }
+}
+.tamdst-phone {
+  &:before {
+    content: $tamdst-phone; 
+  }
+}
+.tamdst-cog {
+  &:before {
+    content: $tamdst-cog; 
+  }
+}
+.tamdst-clipboard-list {
+  &:before {
+    content: $tamdst-clipboard-list; 
+  }
+}
+.tamdst-ramp {
+  &:before {
+    content: $tamdst-ramp; 
+  }
+}
+.tamdst-edit {
+  &:before {
+    content: $tamdst-edit; 
+  }
+}
+.tamdst-association-modal-2 {
+  &:before {
+    content: $tamdst-association-modal-2; 
+  }
+}
+.tamdst-circle-cancel {
+  &:before {
+    content: $tamdst-circle-cancel; 
+  }
+}
+

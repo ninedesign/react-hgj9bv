@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'tamdst-10-2019';
+  src:  url('fonts/tamdst-10-2019.eot?qr0e86');
+  src:  url('fonts/tamdst-10-2019.eot?qr0e86#iefix') format('embedded-opentype'),
+    url('fonts/tamdst-10-2019.ttf?qr0e86') format('truetype'),
+    url('fonts/tamdst-10-2019.woff?qr0e86') format('woff'),
+    url('fonts/tamdst-10-2019.svg?qr0e86#tamdst-10-2019') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="tamdst-"], [class*=" tamdst-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tamdst-10-2019' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tamdst-search-zoom:before {
+  content: "\e00d";
+}
+.tamdst-stack:before {
+  content: "\e914";
+}
+.tamdst-plus:before {
+  content: "\e908";
+}
+.tamdst-minus:before {
+  content: "\e909";
+}
+.tamdst-home:before {
+  content: "\e800";
+}
+.tamdst-end-log:before {
+  content: "\e900";
+}
+.tamdst-begin-log:before {
+  content: "\e901";
+}
+.tamdst-map-pin:before {
+  content: "\f276";
+}
+.tamdst-street-view:before {
+  content: "\f21d";
+}
+.tamdst-mouse-pointer:before {
+  content: "\f245";
+}
+.tamdst-draw-polygon:before {
+  content: "\e902";
+}
+.tamdst-select-route:before {
+  content: "\e903";
+}
+.tamdst-share-square-o:before {
+  content: "\f045";
+}
+.tamdst-external-link:before {
+  content: "\f08e";
+}
+.tamdst-thin-close:before {
+  content: "\e904";
+}
+.tamdst-close:before {
+  content: "\f00d";
+}
+.tamdst-remove:before {
+  content: "\f00d";
+}
+.tamdst-times:before {
+  content: "\f00d";
+}
+.tamdst-trash-o:before {
+  content: "\f014";
+}
+.tamdst-copy:before {
+  content: "\f0c5";
+}
+.tamdst-files-o:before {
+  content: "\f0c5";
+}
+.tamdst-print:before {
+  content: "\f02f";
+}
+.tamdst-chevron-left:before {
+  content: "\f053";
+}
+.tamdst-chevron-right:before {
+  content: "\f054";
+}
+.tamdst-chevron-down:before {
+  content: "\f078";
+}
+.tamdst-chevron-up:before {
+  content: "\f077";
+}
+.tamdst-info-circle:before {
+  content: "\f05a";
+}
+.tamdst-exclamation-triangle:before {
+  content: "\f071";
+}
+.tamdst-warning:before {
+  content: "\f071";
+}
+.tamdst-question-circle-o:before {
+  content: "\f29c";
+}
+.tamdst-ellipsis-h:before {
+  content: "\f141";
+}
+.tamdst-ellipsis-v:before {
+  content: "\f142";
+}
+.tamdst-square-o:before {
+  content: "\f096";
+}
+.tamdst-check-square:before {
+  content: "\f14a";
+}
+.tamdst-circle-o:before {
+  content: "\f10c";
+}
+.tamdst-dot-circle-o:before {
+  content: "\f192";
+}
+.tamdst-bridge:before {
+  content: "\e905";
+}
+.tamdst-culvert:before {
+  content: "\e906";
+}
+.tamdst-road:before {
+  content: "\f018";
+}
+.tamdst-barrier:before {
+  content: "\e907";
+}
+.tamdst-overhead-sign:before {
+  content: "\e90a";
+}
+.tamdst-bmp:before {
+  content: "\e90b";
+}
+.tamdst-spinner:before {
+  content: "\e90c";
+}
+.tamdst-exclamation-circle:before {
+  content: "\e90d";
+}
+.tamdst-graduation-cap:before {
+  content: "\e90e";
+}
+.tamdst-book:before {
+  content: "\e90f";
+}
+.tamdst-phone-square:before {
+  content: "\e910";
+}
+.tamdst-phone:before {
+  content: "\e911";
+}
+.tamdst-cog:before {
+  content: "\e912";
+}
+.tamdst-clipboard-list:before {
+  content: "\e913";
+}
+.tamdst-ramp:before {
+  content: "\e915";
+}
+.tamdst-edit:before {
+  content: "\e916";
+}
+.tamdst-association-modal-2:before {
+  content: "\e917";
+}
+.tamdst-circle-cancel:before {
+  content: "\e920";
+}
