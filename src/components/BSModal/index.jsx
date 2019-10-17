@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import $ from 'jquery';
+import './index.scss'
 // eslint-disable-next-line object-curly-newline
 function ModalView({ bsOptions, title, show, children, onClose }) {
     const modalRef = useRef();

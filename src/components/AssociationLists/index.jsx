@@ -21,20 +21,20 @@ function AssociationLists({ leftItems, rightItems }) {
     return (
         <div className="d-flex w-100">
             <div className="col">
-                <h4>Associated</h4>
-                <ul ref={leftList} className="bg-secondary border m-1 p-3 left-list">
-                    {leftItems && leftItems.length ? (leftItems.map(li => <li key={li} className="list-group-item">{li}</li>))
+                <h6 className="text-center">Associated</h6>
+                <ul ref={leftList} className="border m-1 p-3 left-list">
+                    {leftItems && leftItems.length ? (leftItems.map(li => <li key={li} className="list-group-item"><span className="tamdst-ellipsis-v"></span><span className="list-item">{li}</span></li>))
                     : null}
                 </ul>
             </div>
-            <div className="d-flex flex-column" style={{ justifyContent: 'center' }}>
-                <div>&larr;</div>
-                <div>&rarr;</div>
+            <div className="d-flex flex-column drag-to-from" style={{ justifyContent: 'center' }}>
+                <div><span className="tamdst-chevron-left" ></span></div>
+                <div><span className="tamdst-chevron-right"></span></div>
             </div>
             <div className="col">
-                <h4>Unassociated</h4>
-                <ul ref={rightList} className="bg-secondary border m-1 p-3 right-list">
-                    {rightItems && rightItems.length ? (rightItems.map(li => <li key={li} className="list-group-item">{li}</li>))
+                <h6 className="text-center">Unassociated</h6>
+                <ul ref={rightList} className="border m-1 p-3 right-list">
+                    {rightItems && rightItems.length ? (rightItems.map(li => <li key={li} className="list-group-item"><span className="tamdst-ellipsis-v"></span><span className="list-item">{li}</span></li>))
                     : null}
                 </ul>
             </div>

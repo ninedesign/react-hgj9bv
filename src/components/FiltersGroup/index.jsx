@@ -3,22 +3,16 @@ import "./index.scss";
 
 function FiltersGroup() {
   return (
-    <div classname="container">
+    <div className="container">
       <div className="row justify-content-center">
-        <div
-          className="btn-group"
-          role="group"
-          data-toggle="button"
-          aria-label="filters-selector"
-        >
-          <div className="btn-group btn-group-toggle" data-toggle="buttons">
+          <div className="btn-group btn-group-toggle flex-wrap" data-toggle="buttons">
             <label className="btn btn-secondary active">
               <input
                 type="radio"
                 name="options"
                 id="option1"
-                autocomplete="off"
-                checked
+                autoComplete="off"
+                defaultChecked
               />
               Inventory
             </label>
@@ -27,7 +21,7 @@ function FiltersGroup() {
                 type="radio"
                 name="options"
                 id="option2"
-                autocomplete="off"
+                autoComplete="off"
               />
               Condition
             </label>
@@ -36,7 +30,7 @@ function FiltersGroup() {
                 type="radio"
                 name="options"
                 id="option3"
-                autocomplete="off"
+                autoComplete="off"
               />
               Performance
             </label>
@@ -45,7 +39,7 @@ function FiltersGroup() {
                 type="radio"
                 name="options"
                 id="option3"
-                autocomplete="off"
+                autoComplete="off"
               />
               Investment
             </label>
@@ -54,7 +48,7 @@ function FiltersGroup() {
                 type="radio"
                 name="options"
                 id="option3"
-                autocomplete="off"
+                autoComplete="off"
               />
               Planning
             </label>
@@ -63,14 +57,13 @@ function FiltersGroup() {
                 type="radio"
                 name="options"
                 id="option3"
-                autocomplete="off"
+                autoComplete="off"
               />
               Maintenance
             </label>
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

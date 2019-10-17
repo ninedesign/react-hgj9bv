@@ -1,5 +1,29 @@
-.reports-view {
+ /* .reports-view {
   .btn {
-   /* border: solid #333; */
+  border: solid #333; 
   }
 }
+*/
+  .col-desc {
+    font-size:0.85rem;
+    margin-left:1.5rem;
+  }
+  .col-desc-icon, .action-icon {
+    vertical-align:middle;
+    cursor:pointer;
+    margin-left:0.25rem;
+  }
+  .popover-header {
+    line-height:1.5;
+    border-radius:0;
+  }
+  .popover-body ul {
+    padding:0;
+    list-style-type:none;
+  }
+  .popover-body ul>li {
+    padding-bottom:0.5rem;
+  }
+  .popover-body li:last-of-type {
+    padding-bottom:0;
+  }
